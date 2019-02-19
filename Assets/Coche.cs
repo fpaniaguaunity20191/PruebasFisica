@@ -15,7 +15,6 @@ public class Coche : MonoBehaviour {
     {
         rbCoche = GetComponent<Rigidbody>();
     }
-
     public void FixedUpdate()
     {
         txtSpeed.text = rbCoche.velocity.magnitude.ToString();//Mostramos la velocidad en la UI
